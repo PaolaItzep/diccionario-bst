@@ -47,10 +47,10 @@ def traducir_texto(ruta, tree):
 
 #  PROGRAMA PRINCIPAL
 if __name__ == "__main__":
-    arbol = cargar_diccionario("diccionario (1).txt")
+    arbol = cargar_diccionario("diccionario.txt")
 
     print(" Diccionario ordenado:")
     arbol.inorder()
 
     print("\n Traducción:")
-    traducir_texto("texto (1).txt", arbol)
+    traducir_texto("texto.txt", arbol)
